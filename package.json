@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "three": "^0.146.0"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "parcel": "^2.8.0",
+    "resolve-url-loader": "5.0.0",
+    "sass": "^1.56.1",
+    "sass-loader": "12.1.0"
+  },
+  "scripts": {
+    "watch": "npx mix watch",
+    "serve": "npx parcel ./index.html"
+  }
+}
