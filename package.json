@@ -10,6 +10,7 @@
     "sass-loader": "12.1.0"
   },
   "scripts": {
+    "build": "npx mix --production",
     "watch": "npx mix watch",
     "serve": "npx parcel ./index.html"
   }
